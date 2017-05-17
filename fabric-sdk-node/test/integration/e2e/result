@@ -1,0 +1,17 @@
+[32minfo[39m: Successfully constructed a winston logger with configurations debug=console
+TAP version 13
+# 
+
+***** End-to-end flow: query chaincode *****
+[32minfo[39m: [crypto_ecdsa_aes]: This class requires a CryptoKeyStore to save keys, using the store: {"opts":{"path":"/root/.hfc-key-store"}}
+[32minfo[39m: [Client.js]: Successfully loaded user "admin" from local key value store
+ok 1 Successfully loaded member from persistence
+[32minfo[39m: [E2E query]: ############### Query results after the move on PEER0, User "b" now has  "100"
+[32minfo[39m: [E2E query]: ############### Query results after the move on PEER1, User "b" now has  "100"
+
+1..1
+# tests 1
+# pass  1
+
+# ok
+

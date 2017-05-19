@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "gprsID": "0000000001",
+      "deviceName": "昂思数显1",
+      "deviceTypeName": "US2000",
+      "locationName": "配电室1",
+      "protocolVersion": 1,
+      "mobileNumber": "17713581634",
+      "longitude": "23.12",
+      "latitude": "23.12",
+      "installDirection": "1",
+      "isDiscard": "是",
+      "addDate": "2017-02-02 12:23:21"
+    }
+  ]
+}

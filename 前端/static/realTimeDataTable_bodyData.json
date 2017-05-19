@@ -1,0 +1,17 @@
+{
+  "lastUpdateTime": "2015-08-08 08:13:12",
+  "data": [
+    {
+      "name": "A相电压",
+      "value": "1V"
+    },
+    {
+      "name": "B相电压",
+      "value": "2V"
+    },
+    {
+      "name": "C相电压",
+      "value": "3V"
+    }
+  ]
+}

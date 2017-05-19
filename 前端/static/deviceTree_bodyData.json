@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "name": "配电室1",
+      "device": [
+        {
+          "gprsID": "0000000001",
+          "name": "昂思数显表1",
+          "deviceTypeName": "US2000",
+          "isLogin": true
+        }
+      ]
+    },
+    {
+      "name": "配电室2",
+      "device": [
+        {
+          "gprsID": "0000000003",
+          "name": "昂思数显表3",
+          "deviceTypeName": "US2000",
+          "isLogin": true
+        }
+      ]
+    }
+  ]
+}

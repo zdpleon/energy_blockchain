@@ -21,7 +21,7 @@ lock = _thread.allocate_lock()
 couch = couchdb.Server('http://localhost:5984')
 db =  couch['transaction_info']
   
-HOST = '192.168.1.102 '  # Symbolic name meaning all available interfaces
+HOST = '0.0.0.0'  # Symbolic name meaning all available interfaces
 PORT = 1234 # Arbitrary non-privileged port
   
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

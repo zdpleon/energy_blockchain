@@ -1,7 +1,27 @@
 Energy_blockchain
 
-±¾ÏîÄ¿ÊÇÊ¹ÓÃfabric 1.0Ä£Äâ¶àÓÃ»§ÔÚÄÜÔ´»¥ÁªÍø»·½ÚÖĞÊ¹ÓÃÄÜÔ´Çø¿éÁ´½øĞĞÄÜÔ´½»Ò×£¬ÀûÓÃÇø¿éÁ´¼¼ÊõµÄ·À´Û¸ÄĞÔ½øĞĞ½»Ò×ÈÏÖ¤¡£È·±£ÄÜÔ´½»Ò×µÄ¿É¿¿ĞÔ£¬ÍÆ¶¯ĞÂÄÜÔ´ÀûÓÃÂÊµÈ¡£
+æœ¬é¡¹ç›®æ˜¯ä½¿ç”¨fabric 1.0æ¨¡æ‹Ÿå¤šç”¨æˆ·åœ¨èƒ½æºäº’è”ç½‘ç¯èŠ‚ä¸­ä½¿ç”¨èƒ½æºåŒºå—é“¾è¿›è¡Œèƒ½æºäº¤æ˜“ï¼Œåˆ©ç”¨åŒºå—é“¾æŠ€æœ¯çš„é˜²ç¯¡æ”¹æ€§è¿›è¡Œäº¤æ˜“è®¤è¯ã€‚ç¡®ä¿èƒ½æºäº¤æ˜“çš„å¯é æ€§ï¼Œæ¨åŠ¨æ–°èƒ½æºåˆ©ç”¨ç‡ç­‰ã€‚
 
-ÔÚCC²ã¼ÓÈëÁË¼òµ¥µÄÄÜÔ´½»Ò×ÖÇÄÜºÏÔ¼£¬²¢½«½»Ò×Êı¾İĞ´ÈëÕË±¾ÒÔ¼°±£´æÔÚcouchdbÖĞ£¬ÒµÎñ²ãÊı¾İ¿âÔÚ±¾µØdb.sqliteÖĞ£¬ÔÚÉÏ²ãÊ¹ÓÃpythonµÄ½ºË®ÌØĞÔ½øĞĞÁ¬½Ó£¬Ç°¶Ë½çÃæÊ¹ÓÃvue¿ò¼Ü£¬ºóÌ¨Ê¹ÓÃflask¡£
+åœ¨CCå±‚åŠ å…¥äº†ç®€å•çš„èƒ½æºäº¤æ˜“æ™ºèƒ½åˆçº¦ï¼Œå¹¶å°†äº¤æ˜“æ•°æ®å†™å…¥è´¦æœ¬ä»¥åŠä¿å­˜åœ¨couchdbä¸­ï¼Œä¸šåŠ¡å±‚æ•°æ®åº“åœ¨æœ¬åœ°db.sqliteä¸­ï¼Œåœ¨ä¸Šå±‚ä½¿ç”¨pythonçš„èƒ¶æ°´ç‰¹æ€§è¿›è¡Œè¿æ¥ï¼Œå‰ç«¯ç•Œé¢ä½¿ç”¨vueæ¡†æ¶ï¼Œåå°ä½¿ç”¨flaskã€‚
 
-aa
+ä½¿ç”¨è¯´æ˜ï¼š
+ Â  Â è¿è¡Œç¯å¢ƒä¸ºLinux(Ubuntu 16.04):
+ Â   Nodeç‰ˆæœ¬ï¼šv6.9.5. Goç‰ˆæœ¬ï¼š1.8 Pythonç‰ˆæœ¬ï¼š3.5.2 Dockerç‰ˆæœ¬ï¼š17.03.1-ceåŠä»¥ä¸Š. å¹¶å®‰è£…docker-compose
+ Â   
+    è®¾ç½®$GOPATHä¸º/home/leon/workspace.
+ Â  Â éœ€è¦åœ¨https://github.com/hyperledgeré‡Œè·å–Fabirc-CAï¼ŒFabric. æ”¾å…¥$GOPATH/src/github.com/hyperledgerä¸­.
+ Â  Â åœ¨Fabircå’ŒFabricä¸­åˆ†åˆ«æ‰§è¡Œ make dockeç”Ÿæˆdockeré•œåƒå¹¶ä¿®æ”¹æ ‡ç­¾ä¸ºlatest.
+ Â   å°†é¡¹ç›®ä¸­çš„fabric-sdk-node æ”¾å…¥ $GOPATH/src/hyperledger/fabricä¸­
+ Â  Â åœ¨fabric-sdk-node/energy_blockchain/fabric-sdk-node/test/fixtures ä¸­æ‰§è¡Œ docker-compose up --force-recreate.
+ Â  Â åœ¨fabric-sdk-node/energy_blockchain/fabric-sdk-node/test/integration/e2e ä¸­ æ‰§è¡Œï¼š
+ Â  Â  Â node create-channel.js
+      node join-channel.js
+      node install-chaincode.js
+      node instantiate-chaincode.js
+ Â  Â å®Œæˆéƒ¨ç½²æ™ºèƒ½åˆçº¦, é€šè¿‡ä½¿ç”¨node upgrade.jsæ›´æ–°æ™ºèƒ½åˆçº¦ï¼ˆéœ€è¦åœ¨upgrade.jså’Œquery1.shä¸­ä¿®æ”¹ç‰ˆæœ¬å· é»˜è®¤ä¸º 'v113'ï¼‰
+    
+ Â  Â è¿è¡Œ python3 energy-hyperledger.py
+ Â  Â è¿è¡Œ python3 app.py å¯åŠ¨Flaskåå°ï¼Œäº¤æ˜“å¹³å°ç•Œé¢åœ°å€ä¸º httpï¼š//localhost:8080/    
+ Â  Â åœ¨Webç«¯è¿›è¡ŒåŸºäºhyperledgerçš„èƒ½æºç®¡ç†äº¤æ˜“ã€‚
+    
+ Â  Â ç¬¬ä¸‰æ¬¡æ›´æ–°ï¼ˆVersion 1.0ï¼‰

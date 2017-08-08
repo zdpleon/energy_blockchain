@@ -346,7 +346,7 @@ def push_money():
 
 
 		sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-		sock.connect(('192.168.43.212', 1234))  # 链接服务器
+		sock.connect(('localhost', 1234))  # 链接服务器
 	except ConnectionRefusedError:
 		return jsonify({"status":"failed","msg":"sever ConnectionRefusedError"})
 
